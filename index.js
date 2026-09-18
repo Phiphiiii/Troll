@@ -41,7 +41,7 @@ function ouvertpopup() {
         }
     }
 
-    intervalId = setInterval(action, 150);
+    intervalId = setInterval(action, 50);
     popupIntervals.push(intervalId);
     action();
 }
