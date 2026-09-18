@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fenêtre popup</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            padding: 2rem;
+        }
+
+        dialog {
+            border: 0;
+            border-radius: 8px;
+            box-shadow: 0 8px 30px rgb(0 0 0 / 25%);
+            padding: 1.5rem;
+        }
+
+        dialog::backdrop {
+            background: rgb(0 0 0 / 45%);
+        }
+    </style>
+</head>
+<body>
+    <button type="button" onclick="ouvertpopup()">Ouvrir la fenêtre secondaire</button>
+    <button type="button" onclick="fermerToutesLesFenetres()">Fermer toutes les fenêtres</button>
+
+    <script src="index.js"></script>
+</body>
+</html>
